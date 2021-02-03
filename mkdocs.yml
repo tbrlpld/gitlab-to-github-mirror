@@ -1,0 +1,28 @@
+site_name: Buckinghamshire Council
+repo_url: https://git.torchbox.com/buckinghamshire-council/bc
+site_url: https://buckinghamshire-council.pages.torchbox.com/bc/
+edit_uri: 'edit/master/docs/'
+
+repo_name: Gitlab
+dev_addr: 0.0.0.0:8001
+theme:
+  name: material
+  font: false
+markdown_extensions:
+  - codehilite
+  - admonition
+  - sane_lists
+  - toc:
+      permalink: true
+  # pymdown-extensions meant to bring the Markdown implementation closer to GFM.
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - 'Home': 'index.md'
+  - 'First Page': 'first.md'
+  - 'Second Page': 'second.md'
+  
